@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130194429511",
+    "project_id": "fir-flutter-1a29b",
+    "storage_bucket": "fir-flutter-1a29b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130194429511:android:c46d275a5eaab5f6a3c362",
+        "android_client_info": {
+          "package_name": "com.example.softdevuas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZn4kH4R_64vqrsS1Ou5aJbGXEoSHiAdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
