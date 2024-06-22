@@ -144,7 +144,7 @@ class _CartPageState extends State<CartPage> {
           },
           style: ButtonStyle(
             backgroundColor:
-                MaterialStateProperty.all<Color>(Colors.red.shade600),
+                MaterialStateProperty.all<Color>(Color.fromARGB(255, 150,75,0),),
           ),
           child: Text(
             'Buy',

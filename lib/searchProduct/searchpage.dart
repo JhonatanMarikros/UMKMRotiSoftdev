@@ -61,7 +61,7 @@ class _SearchPageState extends State<SearchPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red.shade600,
+        backgroundColor: Color.fromARGB(255, 150,75,0),
         foregroundColor: Colors.white,
         title: const Text('Search'),
       ),
@@ -160,7 +160,8 @@ class DetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(item.name),
-        backgroundColor: Colors.red.shade600,
+        backgroundColor: Color.fromARGB(255, 150,75,0),
+        foregroundColor: Colors.white,
       ),
       body: SafeArea(
         child: Padding(
@@ -211,7 +212,9 @@ class DetailPage extends StatelessWidget {
                     child: const Text('Add to Cart'),
                     style: ButtonStyle(
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.red.shade600),
+                          MaterialStateProperty.all<Color>(Color.fromARGB(255, 150,75,0)),
+                          foregroundColor: 
+                          MaterialStateProperty.all<Color>(Color.fromARGB(255, 255, 255, 255)),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -234,7 +237,7 @@ class DetailPage extends StatelessWidget {
                             ? Icons.favorite
                             : Icons.favorite_border,
                         color:
-                            likes.likedItems.contains(item) ? Colors.red : null,
+                            likes.likedItems.contains(item) ?Color.fromARGB(255, 150,75,0): null,
                       ),
                     );
                   })

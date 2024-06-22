@@ -17,8 +17,9 @@ class _EsgorengState extends State<Esgoreng> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Esgoreng'),
-        backgroundColor: Colors.red.shade600,
+        title: Text('Es Krim Goreng'),
+        backgroundColor: Color.fromARGB(255, 150,75,0),
+        foregroundColor: Color.fromARGB(255, 255, 255, 255),
       ),
       body: SafeArea(
         child: Padding(
@@ -73,7 +74,9 @@ class _EsgorengState extends State<Esgoreng> {
                     child: const Text('Add to Cart'),
                     style: ButtonStyle(
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.red.shade600),
+                          MaterialStateProperty.all<Color>(Color.fromARGB(255, 150,75,0)),
+                          foregroundColor: 
+                          MaterialStateProperty.all<Color>(Color.fromARGB(255, 255, 255, 255)),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -100,7 +103,7 @@ class _EsgorengState extends State<Esgoreng> {
                     icon: Icon(
                       isLiked ? Icons.favorite : Icons.favorite_border,
                     ),
-                    color: Colors.red.shade600,
+                    color: Color.fromARGB(255, 150,75,0),
                   ),
                 ],
               ),

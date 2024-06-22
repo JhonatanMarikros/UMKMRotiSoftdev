@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
                 margin: const EdgeInsets.all(16),
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 249, 66, 66),
+                  color: Color.fromARGB(255, 150,75,0),
                   borderRadius: BorderRadius.circular(10.0),
                   boxShadow: [
                     BoxShadow(

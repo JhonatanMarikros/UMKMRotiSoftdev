@@ -18,7 +18,8 @@ class _MieBurgerState extends State<MieBurger> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Detail Produk'),
-        backgroundColor: Colors.red.shade600,
+        backgroundColor: Color.fromARGB(255, 150,75,0),
+        foregroundColor: Color.fromARGB(255, 255, 255, 255),
       ),
       body: SafeArea(
         child: Padding(
@@ -74,7 +75,9 @@ class _MieBurgerState extends State<MieBurger> {
                     child: const Text('Add to Cart'),
                     style: ButtonStyle(
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.red.shade600),
+                          MaterialStateProperty.all<Color>(Color.fromARGB(255, 150,75,0)),
+                          foregroundColor: 
+                          MaterialStateProperty.all<Color>(Color.fromARGB(255, 255, 255, 255)),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -101,7 +104,7 @@ class _MieBurgerState extends State<MieBurger> {
                     icon: Icon(
                       isLiked ? Icons.favorite : Icons.favorite_border,
                     ),
-                    color: Colors.red.shade600,
+                    color: Color.fromARGB(255, 150,75,0)
                   ),
                 ],
               ),

@@ -54,7 +54,7 @@ class _MainState extends State<Main> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('UMKM Roti'),
-        backgroundColor: Colors.red.shade600,
+        backgroundColor: Color.fromARGB(255, 150,75,0),
         foregroundColor: Colors.white,
         actions: [
           IconButton(
@@ -91,7 +91,7 @@ class _MainState extends State<Main> {
   Widget buildBottomNavigationBar() {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.red.shade600,
+        color: Color.fromARGB(255, 150,75,0),
         boxShadow: [
           BoxShadow(blurRadius: 20, color: Colors.white.withOpacity(.1)),
         ],
@@ -100,13 +100,13 @@ class _MainState extends State<Main> {
         padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),
         child: GNav(
           gap: 8,
-          backgroundColor: Colors.red.shade600,
+          backgroundColor: Color.fromARGB(255, 150,75,0),
           color: Colors.white,
           activeColor: Colors.white,
           iconSize: 24,
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
           duration: const Duration(milliseconds: 800),
-          tabBackgroundColor: Colors.red.shade400,
+          tabBackgroundColor: Color.fromARGB(255, 181, 90, 0),
           tabs: [
             GButton(
               icon: Icons.home,

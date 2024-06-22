@@ -6,7 +6,7 @@ class AboutUs extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('About Us'),
-        backgroundColor: Colors.red.shade600,
+        backgroundColor: Color.fromARGB(255, 150,75,0),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -18,7 +18,7 @@ class AboutUs extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 border: Border.all(
-                  color: Colors.red.shade600,
+                  color: Color.fromARGB(255, 150,75,0),
                   width: 3,
                 ),
               ),
@@ -45,7 +45,7 @@ class AboutUs extends StatelessWidget {
                 'Exclusively Crafted by Dart Bread',
                 style: TextStyle(
                   fontSize: 16,
-                  color: Colors.red.shade400,
+                  color: Color.fromARGB(255, 150,75,0),
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -54,7 +54,7 @@ class AboutUs extends StatelessWidget {
               decoration: BoxDecoration(
                 border: Border(
                   bottom: BorderSide(
-                    color: Colors.red.shade600,
+                    color: Color.fromARGB(255, 150,75,0),
                     width: 2,
                   ),
                 ),
@@ -77,7 +77,7 @@ class AboutUs extends StatelessWidget {
                     'To advance the realm of IT employment through our diligently crafted dartbread project.',
                     style: TextStyle(
                       fontSize: 16,
-                      color: Colors.red.shade400,
+                      color: Color.fromARGB(255, 150,75,0),
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -89,7 +89,7 @@ class AboutUs extends StatelessWidget {
               decoration: BoxDecoration(
                 border: Border(
                   bottom: BorderSide(
-                    color: Colors.red.shade600,
+                    color: Color.fromARGB(255, 150,75,0),
                     width: 2,
                   ),
                 ),
@@ -112,7 +112,7 @@ class AboutUs extends StatelessWidget {
                     'Email: dartbread@gmail.com\nPhone: +0822-1234-4321',
                     style: TextStyle(
                       fontSize: 16,
-                      color: Colors.red.shade400,
+                      color: Color.fromARGB(255, 150,75,0),
                     ),
                     textAlign: TextAlign.center,
                   ),
